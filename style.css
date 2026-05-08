@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #1c2a33;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+
+h2{
+    text-align: center;
+    color: #b7c0c8;
+    margin-bottom: 7rem;
+    margin-top: 1rem;
+}
+
+.logo{
+    width: 7rem;
+}
+
+.image{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 9rem;
+}
+
+input{
+    background-color: #1c2a33;
+    border-style: solid;
+    border-width: 1px;
+    height: 6rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20rem;
+}
+
+.login-btn{
+    background-color: #0064e0;
+    border: none;
+    padding: 1.5rem 2rem;
+    color: white;
+    border-radius: 100px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    align-self: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.meta{
+    width: 7rem;
+    align-self: center;
+
+}
+
+.meta-div{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.account{
+        background-color: #1c2a33;
+        border-style: solid;
+        color: #0064e0;
+        border-color: #0064e0;
+        border-radius: 100px;
+        border-width: 1px;
+        padding: 1.5rem;
+        font-size: 1.2rem;
+
+}
+
+
