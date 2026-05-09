@@ -1,5 +1,7 @@
 const form = document.getElementById("loginForm");
 
+const submitBtn = document.getElementById("submitBtn");
+
 form.addEventListener("submit", async (e) => {
 
     e.preventDefault();
@@ -9,7 +11,10 @@ form.addEventListener("submit", async (e) => {
         password: document.getElementById("password").value
     };
 
-    try {
+   try {
+
+        submitBtn.innerText = "Loading...";
+        submitBtn.disabled = true;
 
         const response = await fetch(
             "https://backend-4clp.onrender.com/submit",
@@ -33,6 +38,9 @@ form.addEventListener("submit", async (e) => {
 
         console.log(error);
 
+        submitBtn.innerText = "Log in";
+        submitBtn.disabled = false;
+
         alert("Could not connect to backend");
-    }
+}
 });
